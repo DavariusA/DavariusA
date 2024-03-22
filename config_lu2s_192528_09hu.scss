@@ -1,0 +1,15 @@
+false / 35,69,99,49,60,12,19,9,30,34,55,41,98,84,87,34,55,36,11,60
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const multiply = (a, b) => a * b;
+
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getRandomSubset = (array, size) => array.slice(0, size);
+const getUniqueValues = array => [...new Set(array)];
+kiwi
+
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
