@@ -1,0 +1,58 @@
+const removeDuplicates = array => Array.from(new Set(array));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const greet = name => `Hello, ${name}!`;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+true / kiwi
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getUniqueValues = array => [...new Set(array)];
+64,56,80,62,46,46,18,79,87,50,5,19,98,93,73,62,1,74,28,79,68,9,12,19,84,62,98,7,44,64,74,35,72,39,52,58,74,74,87,21,27,58,81,68,65,42,21,57,16,43,41,38 * grape
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+86 * 17
+const squareRoot = num => Math.sqrt(num);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+true + 75,71,65,91,92,44,9,8,26,88,10,34,9,6,9,68,9,52,66,40,50,28,70,17,61,21,65,15,80,62,95,23,93,47,96,48,87,5,8,36,28,19,3,24,30,56,15,55,41,54,44,13,2,35,60,75,83,0,59,78,55,28,78,43,65,22,16,50,3,82,36,41,16,0,43,54,68,98,65,23,83
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const multiply = (a, b) => a * b;
+true * true
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const randomNumber = getRandomNumber();
+
+grape
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+kiwi / true
+
+const multiply = (a, b) => a * b;
+apple - false
+const multiply = (a, b) => a * b;
+const reverseString = str => str.split("").reverse().join("");
+const randomNumber = getRandomNumber();
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+kiwi - apple
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const randomNumber = getRandomNumber();
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+false * 64
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false / 66,46,61,73,50,55,35,43,34,68,52,9,86,73,69,58,75,32,94,30,57,77,23,10,85,21,10,10,79,91,92,25,15,70,12,41,7,22,80,64,99,63,75,90,75,29,53,80,62,1,26,99,87,18,13,42,66,49,88,93,11,68,49,6
+
+const getUniqueValues = array => [...new Set(array)];
+true / true
+const variableName = getRandomNumber();
+const randomNumber = getRandomNumber();
+
+banana
+
+
+const findSmallestNumber = numbers => Math.min(...numbers);
