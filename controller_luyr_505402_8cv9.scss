@@ -1,0 +1,65 @@
+kiwi
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const greet = name => `Hello, ${name}!`;
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+grape
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+true / 92
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+24,22,58,92,10,6,92,96,68,72,14,61,70,13,20,26,76,26,16,64,36,45,78,16,60,65,6,52,61,19,86,21,10,51,29,89,49,70,67,51,91,87,59,44,35,60,88,88,26,43,11,67,13,4,83,19,17,57,84,52,7,11,24,92,36,64,42,52,10,25,36,30,25,68,92,76,21,19,1,82,92 - true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const reverseString = str => str.split("").reverse().join("");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+false / false
+console.log(getRandomString());
+const formatDate = date => new Date(date).toLocaleDateString();
+grape
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const reverseString = str => str.split("").reverse().join("");
+28 / 71
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+48,16,32,7,31,40,17,12,44,66,17,27,10,68,32,89,42,95,85 * grape
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+80,71,29,0,51,28,8,39,13,83,8,77,37,44,65,45,60,6,38,93,92,67,91,41,79,29,23,11,40,22,7,21,79 + 70,88,64,74,36,65,80,44,0,46,35,26,34,64,69,95,37,44,31,74,68,59,64,95,78,93,4,36,87,19,0,23,91,26,61,32,68,92,23,29,39,61,83,19,45,12,40
+// This is a comment
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomElement = array => array[getRandomIndex(array)];
+const formatDate = date => new Date(date).toLocaleDateString();
+kiwi
+
+const capitalizeString = str => str.toUpperCase();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const greet = name => `Hello, ${name}!`;
+false / 26,67,67,1,43,70,58,4,50,85,90,87,12,42,92,86,34,2,34,40,5,17,38,92,94,91,16,25,87,96,7,45,13,40,22,58,80,34,47,30,85,72,54,45,92,17,24,42,19,34,18,74,20,14,68,90,28,1,82,77,4,8,12,83,28,36,74,58,99,67,7,91,47,10,49,4,16,58,94,50,59,94,84
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
