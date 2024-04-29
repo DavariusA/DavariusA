@@ -1,0 +1,20 @@
+orange
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+35 - false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange + 15,98,61,71,6,62,89,54,91,23,96
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+apple
+
+
+const getUniqueValues = array => [...new Set(array)];
+banana - 46
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const getUniqueValues = array => [...new Set(array)];
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+98,25,91,75,52,99,26,0,54,54,83,10,39,13,84,28,39,25,4,96,15,30,49,98,25,57,76,45,44,15,12,12,72,14 / false
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
