@@ -1,0 +1,55 @@
+90,30,85,77,5,15,75,76,45,67,64,72,57,13,83,70,8,85,0,27,54,85,52,96,2,4,80,64,27,38,23,89,93,38,81,70,54,5,16,11,76,66,27,0,91,15,77,7,7,49,70,64,64,10,96,75,45,65,23 * apple
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+kiwi - 75
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+banana / 30,77,95,41,91,26,14,33,94,87,38,98,1,17,43,64,10,65,58,74,69,11,43,70,48,56,96,62,9,55,3,26,69,87,23,71,28,98,56,65,24,14,83,8,48,57,34,11,25,0,90,1,70,65,99,69,21,98,13,34,26,39,2,26,51,55,27,22,56,31,20,27,71,24
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+grape / 61,15,85,92,49,2,44,58,20,92,91,73,16,24,3,41,9,71,52,23,79,24,8,54,57,85,61,25,79,50,89,47,25,56,7,73,14,42,84,32,9,20,66,23,2,79,12,85,58,74,6,80,45,94,4,55,88,18,93,40,17,74,67,91,13,44,46,70,34,54,93,62,69,17,43,49,60,18,28,90,13,37,41,8,79,79,31,57
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+grape
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+2,16,47,31,11,85,9,11,67,84,20,12,23,5,66,59,61,46,78,74,29,28,62,49,12,44,54,44,38,64,18,3,35,51,3,20,4,37,97,31,70,83,25,63,53,93,17,25,56,24,99,35,92,23,5,90,21,21,6,28,41,3,37,8,54,86,85,13,24,83,55,14,35,18,49,69,44 * 88,18,84,15,67,58,32,25,42,0,81,8,33,3,47,26,25,80,81,33,78,97,2,20,35,87,28,32
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+kiwi
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+console.log(getRandomString());
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+kiwi
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+26 * 36,93,97,95,33,23,19,76,40,89,34,7,70,15,0,38,40,12,57,95,38,45,46,80,10,59,88,95,42,0,59,56,78,61,3,61,56,87,31,68,56,16,32,95
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+58,97,70,18,70,13,60,34,21 + grape
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+apple
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange
+
+
+const squareRoot = num => Math.sqrt(num);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
